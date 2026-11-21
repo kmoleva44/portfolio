@@ -16,8 +16,8 @@ window.PORTFOLIO_CONTENT = {
     { id: 6, category: 'social', categoryLabel: 'Интернет-реклама', title: 'Реклама для социальных сетей', description: 'Добавьте вашу предметную композицию, обложку, постер или другой дизайн-проект.', image: 'assets/megapolis-banner-06.jpg.jpg', art: 'dark', artTop: '06 / DESIGN', artBig: 'БОЛЬШЕ\nИДЕЙ.', artBottom: 'МЕСТО ДЛЯ РЕАЛЬНОГО МАКЕТА' }
   ],
   videos: [
-    { title: 'Обзор недвижимости', project: 'МЕГАПОЛИС', role: 'Идея · съёмка · монтаж', url: 'https://vk.ru/clip-126678249_456239892', poster: '', art: 'lime' },
-    { title: 'Видео для соцсетей', project: 'МЕГАПОЛИС', role: 'Съёмка · монтаж · оформление', url: '', poster: '', art: 'coral' },
-    { title: 'Экспертный ролик', project: 'АРГОС', role: 'Сценарий / материалы · монтаж', url: '', poster: '', art: 'blue' }
+    { title: 'Обзор недвижимости', project: 'МЕГАПОЛИС', role: 'Идея · съёмка · монтаж', url: 'https://vk.ru/clip-126678249_456239818', poster: '', art: 'lime' },
+    { title: 'Видео для соцсетей', project: 'МЕГАПОЛИС', role: 'Съёмка · монтаж · оформление', url: 'https://vk.ru/clip-126678249_456239892', poster: '', art: 'coral' },
+    { title: 'Экспертный ролик', project: 'АРГОС', role: 'Сценарий / материалы · монтаж', url: 'https://dzen.ru/shorts/6a16b6e44ae8c3461252d3c6?rid=3612248967.1577.1795267922622.70968&referrer_clid=1400&source=channel', poster: '', art: 'blue' }
   ]
 };
