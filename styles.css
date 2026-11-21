@@ -24,9 +24,4 @@
   color: inherit;
 }
 
-@media (min-width: 901px) {
-  #video .video-grid {
-    width: calc(100% - 13px);
-    margin-left: 13px;
-  }
-}
+
