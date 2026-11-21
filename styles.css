@@ -24,26 +24,15 @@
   color: inherit;
 }
 
-/* Выравнивание всего раздела видео по сетке работ */
+/* Единое выравнивание разделов */
 @media (min-width: 761px) {
+
   #video > * {
-    max-width: calc(1700px - 2 * max(5vw, 24px));
-  }
-}
-
-/* Выравнивание разделов «Результаты» и «Опыт» */
-@media (min-width: 761px) {
-  #results,
-  #experience {
-    max-width: 100%;
-  }
-
-  #results > *,
-  #experience > * {
+    width: 100%;
     max-width: calc(1700px - 2 * max(5vw, 24px));
     margin-left: auto;
     margin-right: auto;
   }
-}
 
+}
 
