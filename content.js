@@ -15,9 +15,10 @@ window.PORTFOLIO_CONTENT = {
     { id: 5, category: 'digital', categoryLabel: 'Интернет-реклама', title: 'Рекламный креатив', description: 'Добавьте баннер юридической компании. При публикации учитывайте требования к рекламному предупреждению.', image: 'assets/megapolis-banner-05.jpg.jpg', art: 'sand', artTop: '05 / CAMPAIGN', artBig: 'СМЫСЛ\nВ ДЕТАЛЯХ.', artBottom: 'МЕСТО ДЛЯ РЕАЛЬНОГО МАКЕТА' },
     { id: 6, category: 'social', categoryLabel: 'Интернет-реклама', title: 'Реклама для социальных сетей', description: 'Добавьте вашу предметную композицию, обложку, постер или другой дизайн-проект.', image: 'assets/megapolis-banner-06.jpg.jpg', art: 'dark', artTop: '06 / DESIGN', artBig: 'БОЛЬШЕ\nИДЕЙ.', artBottom: 'МЕСТО ДЛЯ РЕАЛЬНОГО МАКЕТА' }
   ],
-  videos: [
-    { title: 'Обзор недвижимости', project: 'МЕГАПОЛИС', role: 'Идея · съёмка · монтаж', url: 'https://vk.ru/clip-126678249_456239818', poster: '', art: 'lime' },
-    { title: 'Видео для соцсетей', project: 'МЕГАПОЛИС', role: 'Съёмка · монтаж · оформление', url: 'https://vk.ru/clip-126678249_456239892', poster: '', art: 'coral' },
-    { title: 'Экспертный ролик', project: 'АРГОС', role: 'Сценарий / материалы · монтаж', url: 'https://dzen.ru/shorts/6a16b6e44ae8c3461252d3c6?rid=3612248967.1577.1795267922622.70968&referrer_clid=1400&source=channel', poster: '', art: 'blue' }
-  ]
+videos: [
+    { title: 'Обзор недвижимости', project: 'МЕГАПОЛИС', role: 'Идея · съёмка · монтаж', url: 'https://vk.ru/clip-126678249_456239818', poster: 'assets/video-01.png', art: 'lime' },
+    { title: 'Развлекательный', project: 'МЕГАПОЛИС', role: 'Съёмка · монтаж · оформление', url: 'https://vk.ru/clip-126678249_456239892', poster: 'assets/video-02.png', art: 'coral' },
+    { title: 'Продающий', project: 'АРГОС', role: 'Сценарий / материалы · монтаж', url: 'https://dzen.ru/shorts/6a16b6e44ae8c3461252d3c6?rid=3612248967.1577.1795267922622.70968&referrer_clid=1400&source=channel', poster: 'assets/video-03.png', art: 'blue' }
+]
+
 };
