@@ -23,3 +23,49 @@
 .project-card h3 .asterisk {
   color: inherit;
 }
+/* ВИДЕО — одинаковый размер обложек и ровный текст снизу */
+.video-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:32px;
+  align-items:start;
+}
+
+.video-grid > *{
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  min-width:0;
+}
+
+.video-grid img{
+  width:100%;
+  aspect-ratio:9 / 16;
+  height:auto;
+  display:block;
+  object-fit:cover;
+}
+
+.video-grid h3,
+.video-grid p,
+.video-grid a{
+  margin-left:0;
+}
+
+.video-grid h3{
+  margin-top:16px;
+  margin-bottom:8px;
+}
+
+.video-grid p{
+  margin-top:0;
+  margin-bottom:12px;
+}
+
+/* мобильная версия */
+@media (max-width: 900px){
+  .video-grid{
+    grid-template-columns:1fr;
+    gap:24px;
+  }
+}
