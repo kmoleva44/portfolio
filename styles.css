@@ -24,15 +24,10 @@
   color: inherit;
 }
 
-/* Единое выравнивание разделов */
-@media (min-width: 761px) {
-
-  #video > * {
-    width: 100%;
-    max-width: calc(1700px - 2 * max(5vw, 24px));
-    margin-left: auto;
-    margin-right: auto;
-  }
-
+/* Единая сетка для видеоблока */
+#video > * {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
 }
 
