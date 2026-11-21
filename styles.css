@@ -24,3 +24,11 @@
   color: inherit;
 }
 
+/* Выравнивание всего раздела видео по сетке работ */
+@media (min-width: 761px) {
+  #video > * {
+    max-width: calc(1700px - 2 * max(5vw, 24px));
+  }
+}
+
+
