@@ -31,4 +31,19 @@
   }
 }
 
+/* Выравнивание разделов «Результаты» и «Опыт» */
+@media (min-width: 761px) {
+  #results,
+  #experience {
+    max-width: 100%;
+  }
+
+  #results > *,
+  #experience > * {
+    max-width: calc(1700px - 2 * max(5vw, 24px));
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 
