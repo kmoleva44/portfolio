@@ -45,7 +45,9 @@
     const el=document.createElement('article');el.className='video-item';
     const visual=item.poster?`<img src="${escapeHTML(item.poster)}" alt="Превью: ${escapeHTML(item.title)}" loading="lazy" class="video-poster" style="object-fit:cover;width:100%">`:`<div class="video-poster ${escapeHTML(item.art)}"><span>${escapeHTML(item.project)} / ВИДЕО 0${i+1}</span><strong>ТВОЁ<br>ВИДЕО<br>ЗДЕСЬ ↗</strong><span>ДОБАВИТЬ РЕАЛЬНЫЙ РОЛИК</span></div>`;
     const action=item.url?`<a class="video-view" href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer">Посмотреть ролик ↗</a>`:`<span class="video-placeholder">Ссылка на видео будет добавлена</span>`;
-    el.innerHTML=`${visual}<h3>${escapeHTML(item.title)}</h3><p>${escapeHTML(item.role)}</p>${action}`;
+    const clickableVisual = item.url ? `<a href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer" aria-label="Смотреть видео: ${escapeHTML(item.title)}" style="display:block">${visual}</a>` : visual;
+el.innerHTML=`${clickableVisual}<h3>${escapeHTML(item.title)}</h3><p>${escapeHTML(item.role)}</p>${action}`;
+
     videoGrid.appendChild(el);
   });
 })();
