@@ -15,14 +15,15 @@
     if(item.image) return `<img class="real-work-image" src="${escapeHTML(item.image)}" alt="${escapeHTML(item.title)}" loading="lazy" style="width:100%;aspect-ratio:1;object-fit:cover">`;
     return `<div class="artwork ${escapeHTML(item.art)}"><span class="art-top">${escapeHTML(item.artTop)}</span><span class="art-big">${escapeHTML(item.artBig)}</span><span class="art-bottom">${escapeHTML(item.artBottom)}</span></div>`;
   }
-  const grid = document.getElementById('workGrid');
-  content.works.forEach(item => {
-    const article = document.createElement('article');
-    article.className = 'work-item'; article.dataset.category = item.category;</
-    article.innerHTML = `<button type="button" class="work-button" aria-label="Подробнее: ${escapeHTML(item.title)}">${artHTML(item)}<div class="work-meta"><div><strong>${escapeHTML(item.title)}</strong><small>${escapeHTML(item.categoryLabel)}</small>div><span class="work-arrow" aria-hidden="true">↗&#xfe0e;</span></div></button>`;
-    article.querySelector('button').addEventListener('click', () => showDetail(item));
-    grid.appendChild(article);
-  });
+const grid = document.getElementById('workGrid');
+content.works.forEach(item => {
+  const article = document.createElement('article');
+  article.className = 'work-item';
+  article.dataset.category = item.category;
+  article.innerHTML = `<button type="button" class="work-button" aria-label="Подробнее: ${escapeHTML(item.title)}">${artHTML(item)}<div class="work-meta"><div><strong>${escapeHTML(item.title)}</strong><small>${escapeHTML(item.categoryLabel)}</small></div><span class="work-arrow" aria-hidden="true">↗&#xfe0e;</span></div></button>`;
+  article.querySelector('button').addEventListener('click', () => showDetail(item));
+  grid.appendChild(article);
+});
   const dialog = document.getElementById('workDialog');
   const close = document.getElementById('closeDialog');
   function showDetail(item) {
