@@ -16,7 +16,7 @@ window.PORTFOLIO_CONTENT = {
     { id: 6, category: 'social', categoryLabel: 'Интернет-реклама', title: 'Реклама для социальных сетей', description: 'Добавьте вашу предметную композицию, обложку, постер или другой дизайн-проект.', image: 'assets/megapolis-banner-06.jpg.jpg', art: 'dark', artTop: '06 / DESIGN', artBig: 'БОЛЬШЕ\nИДЕЙ.', artBottom: 'МЕСТО ДЛЯ РЕАЛЬНОГО МАКЕТА' }
   ],
   videos: [
-    { title: 'Обзор недвижимости', project: 'МЕГАПОЛИС', role: 'Идея · съёмка · монтаж', url: '', poster: '', art: 'lime' },
+    { title: 'Обзор недвижимости', project: 'МЕГАПОЛИС', role: 'Идея · съёмка · монтаж', url: 'https://vk.ru/clip-126678249_456239892', poster: '', art: 'lime' },
     { title: 'Видео для соцсетей', project: 'МЕГАПОЛИС', role: 'Съёмка · монтаж · оформление', url: '', poster: '', art: 'coral' },
     { title: 'Экспертный ролик', project: 'АРГОС', role: 'Сценарий / материалы · монтаж', url: '', poster: '', art: 'blue' }
   ]
