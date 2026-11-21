@@ -8,7 +8,7 @@
 */
 window.PORTFOLIO_CONTENT = {
   works: [
-    { id: 1, category: 'megapolis', categoryLabel: 'МЕГАПОЛИС', title: 'Рекламные материалы', description: 'Добавьте сюда свой лучший рекламный баннер или серию макетов и коротко опишите задачу.', image: 'assets/megapolis-banner-01.jpg.jpg', artTop: '01 / DIGITAL', artBig: 'ИДЕЯ.\nВИЗУАЛ.', artBottom: 'МЕСТО ДЛЯ РЕАЛЬНОГО МАКЕТА' },
+    { id: 1, category: 'megapolis', categoryLabel: 'НАРУЖНАЯ РЕКЛАМА', title: 'Наружная реклама', description: Разработка рекламного баннера для размещения в городе', image: 'assets/megapolis-banner-01.jpg.jpg', artTop: '01 / DIGITAL', artBig: 'ИДЕЯ.\nВИЗУАЛ.', artBottom: 'МЕСТО ДЛЯ РЕАЛЬНОГО МАКЕТА' },
     { id: 2, category: 'argos', categoryLabel: 'АРГОС', title: 'Оформление социальных сетей', description: 'Добавьте сюда обложку, публикацию или визуальную серию из работы для юридической компании.', image: 'assets/megapolis-banner-02.jpg.jpg', artTop: '02 / SOCIAL', artBig: 'ЯСНО.\nПО ДЕЛУ.', artBottom: 'МЕСТО ДЛЯ РЕАЛЬНОГО МАКЕТА' },
     { id: 3, category: 'megapolis', categoryLabel: 'МЕГАПОЛИС', title: 'Контент для недвижимости', description: 'Подойдёт карусель с планировками, строительным отчётом или материалами акции.', image: 'assets/megapolis-banner-03.jpg.jpg', art: 'lime', artTop: '03 / REAL ESTATE', artBig: 'ДОМ —\nЭТО ИДЕЯ.', artBottom: 'МЕСТО ДЛЯ РЕАЛЬНОГО МАКЕТА' },
     { id: 4, category: 'ai', categoryLabel: 'AI / ДИЗАЙН', title: 'AI-визуалы', description: 'Добавьте изображение, созданное с помощью нейросетей, и кратко поясните свою роль.', image: 'assets/megapolis-banner-04.jpg.jpg', art: 'violet', artTop: '04 / AI CREATIVE', artBig: 'НОВАЯ\nОПТИКА.', artBottom: 'МЕСТО ДЛЯ РЕАЛЬНОГО МАКЕТА' },
