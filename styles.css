@@ -23,3 +23,13 @@
 .project-card h3 .asterisk {
   color: inherit;
 }
+
+/* Чёрный текст фильтров */
+.filter {
+  color: #171919;
+}
+
+.filter.active,
+.filter:hover {
+  color: #ffffff;
+}
