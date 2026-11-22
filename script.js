@@ -20,7 +20,7 @@ content.works.forEach(item => {
   const article = document.createElement('article');
   article.className = 'work-item';
   article.dataset.category = item.category;
-  article.innerHTML = `<button type="button" class="work-button" aria-label="Подробнее: ${escapeHTML(item.title)}">${artHTML(item)}<div class="work-meta"><div><strong>${escapeHTML(item.title)}</strong><small>${escapeHTML(item.categoryLabel)}</small></div><span class="work-arrow" aria-hidden="true">↗&#xfe0e;</span></div></button>`;
+  article.innerHTML = `<button type="button" class="work-button" aria-label="Подробнее: ${escapeHTML(item.title)}">${artHTML(item)}<div class="work-meta"><div><strong>${escapeHTML(item.title)}</strong><small>${escapeHTML(item.categoryLabel)}</small></div></div></button>`;
   article.querySelector('button').addEventListener('click', () => showDetail(item));
   grid.appendChild(article);
 });
