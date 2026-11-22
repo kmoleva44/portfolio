@@ -33,3 +33,12 @@
 .filter:hover {
   color: #ffffff;
 }
+
+/* Размер цифр в результатах — только мобильная версия */
+@media (max-width: 760px) {
+  #results .metric-value {
+    font-size: 24px;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+}
