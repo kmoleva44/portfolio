@@ -42,3 +42,12 @@
     white-space: nowrap;
   }
 }
+
+/* Результаты — выравнивание на мобильных */
+@media (max-width: 760px) {
+  #results .metric {
+    grid-template-columns: max-content minmax(0, 1fr);
+    gap: 20px;
+    align-items: center;
+  }
+}
