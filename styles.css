@@ -56,3 +56,15 @@
   color: #171919;
 }
 
+/* Недвижимость — светло-голубой */
+.project-mega {
+  background: #E2F2FA;
+  color: #171919;
+}
+
+/* Юридические услуги — фирменный бордовый */
+.project-argos {
+  background: #850D28;
+  color: #FFFFFF;
+}
+
